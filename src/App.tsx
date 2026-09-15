@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { motion, type Variants } from 'framer-motion'
 import {
   FiArrowUpRight,
@@ -466,6 +467,7 @@ function App() {
           <span>WEB3 / PRODUCT / COMMUNITY</span>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
