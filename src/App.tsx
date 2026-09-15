@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import { motion, type Variants } from 'framer-motion'
 import {
   FiArrowUpRight,
@@ -468,6 +469,7 @@ function App() {
         </div>
       </footer>
       <Analytics />
+      <SpeedInsights />
     </div>
   )
 }
