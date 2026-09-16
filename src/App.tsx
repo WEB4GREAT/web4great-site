@@ -436,7 +436,7 @@ function App() {
               opportunities.
             </p>
 
-            <a className="contact-button" href="mailto:hello@web4great.com">
+            <a className="contact-button" href="mailto:success99940@gmail.com">
               Start a conversation <FiArrowUpRight />
             </a>
           </div>
@@ -454,11 +454,11 @@ function App() {
             <FiGithub /> GitHub
           </a>
 
-          <a href="https://x.com/WEB4GREATXD" target="_blank" rel="noreferrer">
+          <a href="https://x.com/WEB4GREAT" target="_blank" rel="noreferrer">
             X <FiArrowUpRight />
           </a>
 
-          <a href="https://t.me/web4great" target="_blank" rel="noreferrer">
+          <a href="https://t.me/great134" target="_blank" rel="noreferrer">
             <FiSend /> Telegram
           </a>
         </div>
