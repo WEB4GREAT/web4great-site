@@ -1,75 +1,41 @@
-# React + TypeScript + Vite
+# WEB4GREAT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Full-stack developer • Blockchain builder • Web3 growth**
 
-Currently, two official plugins are available:
+Personal portfolio and digital home of WEB4GREAT.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built to showcase products, blockchain work, community contributions, growth work, and experiments across Web3.
 
-## React Compiler
+## Featured work
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Scout** — Early Web3 project discovery platform.
 
-## Expanding the ESLint configuration
+**TRACE** — Multi-chain wallet intelligence and visual transaction mapping.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Spliz** — Cross-border bill-splitting product contribution.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Farting Lobster** — Community activation and growth.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Cryptonia** — Community management and ecosystem support.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**EdenFi** — Community moderation and user support.
 
-```
+**Streamify** — Web3 community support and moderation.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## Built with
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+React • TypeScript • Vite • Framer Motion • CSS
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Links
 
-```
+Portfolio: https://web4great.vercel.app/
+
+GitHub: https://github.com/WEB4GREAT
+
+X: https://x.com/WEB4GREAT
+
+Telegram: https://t.me/great134
+
+---
+
+Built by **WEB4GREAT**.
