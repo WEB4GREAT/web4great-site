@@ -34,6 +34,17 @@ const work = [
   },
   {
     number: '02',
+    name: 'TRACE',
+    type: 'PRODUCT / WEB3',
+    role: 'Founder · Builder',
+    year: '2026',
+    description:
+      'A multi-chain wallet intelligence tool that turns public blockchain activity into a visual transaction map.',
+    tags: ['React', 'TypeScript', 'Blockchain'],
+    website: 'https://traceonchain.netlify.app/',
+  },
+  {
+    number: '03',
     name: 'Spliz',
     type: 'FINTECH / WEB3',
     role: 'Community · Growth',
@@ -43,7 +54,7 @@ const work = [
     tags: ['Community', 'Growth'],
   },
   {
-    number: '03',
+    number: '04',
     name: 'Farting Lobster',
     type: 'COMMUNITY / MEME',
     role: 'Community Manager',
@@ -53,7 +64,7 @@ const work = [
     tags: ['Community', 'Activation'],
   },
   {
-    number: '04',
+    number: '05',
     name: 'Cryptonia',
     type: 'COMMUNITY / WEB3',
     role: 'Official Community Manager',
@@ -63,7 +74,7 @@ const work = [
     tags: ['Community', 'Ecosystem'],
   },
   {
-    number: '05',
+    number: '06',
     name: 'EdenFi',
     type: 'COMMUNITY / WALLET',
     role: 'Moderator',
@@ -73,7 +84,7 @@ const work = [
     tags: ['Moderation', 'Web3'],
   },
   {
-    number: '06',
+    number: '07',
     name: 'Streamify',
     type: 'COMMUNITY / WEB3',
     role: 'Moderator',
@@ -310,7 +321,18 @@ function App() {
 
                 <div className="work-side">
                   <span>{project.role}</span>
-                  <FiArrowUpRight />
+                  {project.website ? (
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`Visit ${project.name}`}
+                    >
+                      <FiArrowUpRight />
+                    </a>
+                  ) : (
+                    <FiArrowUpRight />
+                  )}
                 </div>
               </motion.article>
             ))}
